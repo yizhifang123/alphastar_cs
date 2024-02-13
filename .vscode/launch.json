@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/yizhi/workspace/alphastar_cs/4.6.3_bridge_2",
+      "program": "/Users/yizhi/workspace/alphastar_cs/4.6.3_bridge_2/build/Debug/outDebug"
+    }
+  ]
+}

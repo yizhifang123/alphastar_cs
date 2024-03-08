@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/yizhi/workspace/alphastar_cs/4.6.3_bridge_2",
-      "program": "/Users/yizhi/workspace/alphastar_cs/4.6.3_bridge_2/build/Debug/outDebug"
+      "cwd": "/Users/yizhi/workspace/alphastar_cs/ProgrammingChallengesBook",
+      "program": "/Users/yizhi/workspace/alphastar_cs/ProgrammingChallengesBook/build/Debug/outDebug"
     }
   ]
 }

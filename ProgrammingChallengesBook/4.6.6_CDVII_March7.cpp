@@ -74,7 +74,6 @@ int main() {
             int totalCost = entry.second + 200;
             cout << license << " $" << totalCost / 100.0 << endl;
         }
-        
         if (t < testCases - 1) {
             cout << endl;
         }

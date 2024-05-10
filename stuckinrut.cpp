@@ -8,6 +8,7 @@ vector<array<int, 3>> east;
 int main() {
 	int N;
 	cin >> N;
+	int inf = 1e9;
 	vector<pair<int, int>> pos(N);
 	for (int i = 0; i < N; i++) {
 		char d;
@@ -34,7 +35,19 @@ int main() {
 			if (x_distance == y_distance) { 
         continue; 
       }
-    //do meet times
+    	if (y_distance > x_distance && x_distance > 0) {
+				meetTime.push_back({y_distance, northCow[2], eastCow[2], 0});
+			} else if (y_distance < x_distance && y_distance > 0) {
+				meetTime.push_back({x_distance, eastCow[2], northCow[2], 1});
+			}
+		}
+	}
+	sort(meetTime.begin(), meetTime.end());
+	for (auto v : meetTime) {
+		if (v == inf) {
+			cout << "Infinity" << endl;
+		} else {
+			cout << v << endl;
 		}
 	}
 }
